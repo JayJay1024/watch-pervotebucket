@@ -1,0 +1,36 @@
+{
+  "name": "watch-pervotebucket",
+  "version": "1.0.0",
+  "description": "watch pervote_bucket",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js",
+    "start": "pm2 start app.js --name Watchpervotebucket --env production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucienLau/watch-pervotebucket.git"
+  },
+  "keywords": [
+    "EOS",
+    "BOS",
+    "eosio",
+    "global table",
+    "pervote_bucket"
+  ],
+  "author": "ly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucienLau/watch-pervotebucket/issues"
+  },
+  "homepage": "https://github.com/LucienLau/watch-pervotebucket#readme",
+  "dependencies": {
+    "eosjs": "^20.0.0",
+    "log4js": "^4.3.1",
+    "node-cron": "^2.0.3",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "pm2": "^3.5.1"
+  }
+}
